@@ -1,0 +1,110 @@
+body{
+
+    margin: 30px 0px 0px 0px ;
+    background-color: beige;
+}
+
+
+table {
+  
+    margin: auto auto 30px;
+    width: 700px;
+    background-color: rgb(158, 78, 78);
+
+
+    border: 1px solid black;
+   
+}
+td{
+   
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+}
+.td-left{
+ 
+    background-color: brown;
+}
+
+.td-right{
+    color:white;
+    
+    background-color: chocolate;  
+}
+
+
+.td-titulo{
+    background-color: black;  
+    color: white;
+  
+}
+td:hover{
+    background-color: darkgreen;
+    color: white;
+    cursor: pointer;
+}
+
+.container{
+    border: 1px solid black;
+    padding-top: 10px;
+    margin: auto;
+    width: 700px;
+background-color: brown;
+
+}
+.form{
+padding-top: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+    
+}
+input{
+    margin-left: 3px;
+    margin-right: 10px;
+    height: 25px;
+    font-size: 20px;
+    width: 100px;
+}
+.botao{
+    height: 33px;
+    background-color: green;
+    color: white;
+ 
+}
+ .botao:active{
+     cursor: pointer;
+     animation: cor 0.6s linear;
+
+}
+.botao:hover{
+ 
+    cursor: pointer;
+
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+}
+h2{
+    color:white;
+    text-align: center;
+}
+.container-imc{
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: chocolate;
+}
+
+@keyframes cor{
+    from{
+        opacity: 0.85;
+        background-color: rgb(0, 84, 0);
+    }
+    to{
+        opacity: 1;
+        background-color: rgb(0, 44, 0);
+    }
+}

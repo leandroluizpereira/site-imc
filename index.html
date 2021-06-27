@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <script src="static/funcao.js"></script>
+    <title>Site IMC</title>
+</head>
+<body>
+   
+   
+    <table>
+       
+        <thead>
+            <tr>
+                <td class="td-titulo">Classificação</td>
+                <td class="td-titulo" >IMC</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="td-left">Abaixo do peso </td>
+                <td class="td-right"> menor de 18,5 </td>
+            </tr>
+            <tr>
+                <td class="td-left">Peso normal</td>
+                <td class="td-right">18,5 - 24,9 </td>
+            </tr>
+            <tr>
+                <td class="td-left">Sobrepeso</td>
+                <td class="td-right">25 - 29,9 </td>
+            </tr>
+            <tr>
+                <td class="td-left">Obesidade Grau 1</td>
+                <td class="td-right">30 = 34,9 </td>
+            </tr>
+            <tr>
+                <td class="td-left">Obesidade Grau 2</td>
+                <td class="td-right">35 = 39,9 </td>
+            </tr>
+            <tr>
+                <td class="td-left">Obesidade Grau 3 ou Mórbida</td>
+                <td class="td-right">maior ou igual 40</td>
+            </tr>
+
+        </tbody>
+        </table>
+
+     
+      <div class="container">
+        <h1>Calculadora IMC</h1>
+          <div class="form" >
+     
+              <h1>peso:</h1>  <input id="text" type="text">
+                  <h1>altura:</h1><input id="altura">
+                  <input type="submit" value="verificar"  onclick="botao();" class="botao"></input>
+     
+          </div>
+       <div class="container-imc">
+     
+              <h2 id="p"> </h2>
+       </div>
+      </div>
+
+</div>
+    
+</body>
+</html>
