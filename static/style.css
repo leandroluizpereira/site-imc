@@ -8,7 +8,7 @@ body{
 table {
   
     margin: auto auto 30px;
-    width: 700px;
+    width: 500px;
     background-color: rgb(158, 78, 78);
 
 
@@ -48,7 +48,7 @@ td:hover{
     border: 1px solid black;
     padding-top: 10px;
     margin: auto;
-    width: 700px;
+    width: 500px;
 background-color: brown;
 
 }
@@ -62,12 +62,15 @@ align-items: center;
 input{
     margin-left: 3px;
     margin-right: 10px;
-    height: 25px;
+    height: 20px;
     font-size: 20px;
-    width: 100px;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(100, 9, 9) ;
 }
 .botao{
-    height: 33px;
+    height: 28px;
     background-color: green;
     color: white;
  
