@@ -71,6 +71,7 @@ input{
 }
 .botao{
     height: 28px;
+    width: auto;
     background-color: green;
     color: white;
  
