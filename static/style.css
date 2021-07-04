@@ -9,7 +9,7 @@ table {
   
     margin: auto auto 30px;
     width: 500px;
-    background-color: rgb(158, 78, 78);
+    background-color: rgb(84, 29, 29);
 
 
     border: 1px solid black;
@@ -39,7 +39,7 @@ td{
   
 }
 td:hover{
-    background-color: darkgreen;
+    opacity: 0.9;
     color: white;
     cursor: pointer;
 }
